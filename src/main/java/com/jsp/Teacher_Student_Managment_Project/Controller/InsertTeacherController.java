@@ -63,7 +63,7 @@ public class InsertTeacherController extends HttpServlet {
 			printWriter.write("</html></body>");
 		}
 		else {
-			RequestDispatcher dispatcher = req.getRequestDispatcher("Login.jsp"); 
+			RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp"); 
 			
 			dispatcher.include(req, resp); 
 		}

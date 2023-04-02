@@ -15,7 +15,7 @@ public class AdminLogoutController extends HttpServlet{
 		
 		req.getSession().invalidate();
 		
-		RequestDispatcher dispatcher = req.getRequestDispatcher("Login.jsp"); 
+		RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp"); 
 		
 		dispatcher.include(req, resp);
 	}
