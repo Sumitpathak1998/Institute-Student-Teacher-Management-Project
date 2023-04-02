@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-image: url("https://s38924.pcdn.co/wp-content/uploads/2020/07/Zapier-Add-On-Case-Study.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.head,.container,.main{
+	background-image: none;
+}
+.head{
+	width: 50vw ; 
+	font-size: 380% ;
+	font-weight : 800; 
+	box-sizing: border-box;
+	padding-top : 10px ; 
+	margin: auto;
+	position: relative;
+	top : 68px ; 
+	color: azure ; 
+}
+.container{
+	width: 70vw ; 
+	box-sizing: border-box;
+	padding:  2% ; 
+	border: 1px solid azure;
+	position: relative;
+	top: 111px ; 
+	margin: auto;
+	border-radius: 30px ; 
+}
+.main{
+	height: 55px ; 
+	width: 65vw ; 
+	font-size: 150% ; 
+	color: #0b1a2d ; 
+	text-align: center;
+}

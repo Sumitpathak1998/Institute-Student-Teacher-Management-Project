@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+	background-image: url("https://s38924.pcdn.co/wp-content/uploads/2021/06/Blog-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.head,.container,.main,.text,.filled,.foot{
+	background-image: none ;
+}
+.head{
+	width : 70vw ; 
+	box-sizing:border-box;
+	margin: auto;
+	font-size: 580% ;
+	position: relative;
+	top: 5px ;
+	color: white;  
+}
+.container{
+	width: 60vw ; 
+	border: 2px solid white ;
+	box-sizing: border-box;
+	padding-left: 80px ;
+	padding-top: 45px ; 
+	position: relative;
+	top : 35px ; 
+	margin: auto;
+	margin-bottom: 10px ;    
+}
+.main{
+	
+}
+.text{
+	font-size: 250% ; 
+	color: white ;
+}
+.filled{
+	height: 50px ;
+	width: 36vw ; 
+	border-radius: 30px ;
+	font-size: 200% ;   
+	box-sizing: border-box;
+	padding-left: 30px ; 
+	background-color: #b5a4a478;
+	color: azure ; 
+}
+.foot{
+	height: 53px; 
+	width: 10vw ; 
+	font-size: 150% ;
+	border-radius: 30px ; 
+	background-color: #519eaac2 ;
+	color: white; 
+}
+a{
+	font-size: 116% ;
+	text-decoration: none;
+	background-image: none ;
+	color: azure ; 
+}
+form{
+	background-image: none;
+}

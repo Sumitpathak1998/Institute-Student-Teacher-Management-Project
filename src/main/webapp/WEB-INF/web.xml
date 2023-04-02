@@ -1,0 +1,140 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <welcome-file-list>
+  	<welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Admin Login -->
+  
+  <servlet>
+  	<servlet-name>adminLog</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.LoginController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>adminLog</servlet-name>
+  	<url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Insert Teacher Controller -->
+  
+  <servlet>
+  	<servlet-name>insertTeachers</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.InsertTeacherController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>insertTeachers</servlet-name>
+	<url-pattern>/insertTeacher</url-pattern>  
+  </servlet-mapping>
+  
+  <!-- Insert Student Details -->
+  
+  <servlet>
+  	<servlet-name>insertStudent</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.InsertStudentController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>insertStudent</servlet-name>
+  	<url-pattern>/insertStudent</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Delete Teacher -->
+  
+  <servlet>
+  	<servlet-name>deleteTeacher</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.DeleteTeacherController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>deleteTeacher</servlet-name>
+  	<url-pattern>/deleteTeacher</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Delete Student -->
+  
+  <servlet>
+  	<servlet-name>deleteStudent</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.DeleteStudentController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>deleteStudent</servlet-name>
+  	<url-pattern>/deleteStudent</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Update Teacher -->
+  <servlet>
+  	<servlet-name>updateTeacher</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.UpdateTeacherController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>updateTeacher</servlet-name>
+  	<url-pattern>/updateTeacher</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Update Student -->
+  
+  <servlet>
+  	<servlet-name>studentUpdate</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.UpdateStudentController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>studentUpdate</servlet-name>
+  	<url-pattern>/updateStudent</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Display Teacher -->
+  <servlet>
+  	<servlet-name>displayTeacher</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.DisplayTeacherController</servlet-class> 
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>displayTeacher</servlet-name>
+  	<url-pattern>/displayTeacher</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Display Student -->
+  
+  <servlet>
+  	<servlet-name>displayStudent</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.DisplayStudentController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>displayStudent</servlet-name>
+  	<url-pattern>/displayStudent</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Display Teacher detail According to Number of Student -->
+  <servlet>
+  	<servlet-name>displayTeacherStudent</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.DisplayStudentTeacherController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>displayTeacherStudent</servlet-name>
+  	<url-pattern>/teacheraccostudent</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Logout -->
+  <servlet>
+  	<servlet-name>adminLogout</servlet-name>
+  	<servlet-class>com.jsp.Teacher_Student_Managment_Project.Controller.AdminLogoutController</servlet-class>	
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>adminLogout</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
